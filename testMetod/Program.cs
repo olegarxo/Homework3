@@ -64,6 +64,21 @@ string comparisonNumber(int[] firstMassive,int[] secondMassive)
     }
     return text;
 }
+int findNubmer(int[] sumMassive,int number)
+{
+    int index = 0;
+    int length = sumMassive.Length;
+    int position = 0;
+    while(index<length)
+    {
+        if (sumMassive[index] == number);
+        {
+            position = index; 
+            break;
+        }
+    }
+    return position;
+}
 int[] number = new int [5];
 randomBumber(number);
 printNumber(number);
